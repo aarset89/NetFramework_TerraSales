@@ -112,7 +112,7 @@ namespace TerraSales
                         // You can add individual files by providing the path to one or
                         // more Xml comment files.
                         //
-                        c.IncludeXmlComments(AppDomain.CurrentDomain.BaseDirectory + @"bin\TerraSales.xml");
+                        //c.IncludeXmlComments(AppDomain.CurrentDomain.BaseDirectory + @"bin\TerraSales.xml");
                         c.IncludeAllXmlComments(thisAssembly, AppDomain.CurrentDomain.BaseDirectory);
 
                         // Swagger-Net makes a best attempt at generating Swagger compliant JSON schemas for the various types
